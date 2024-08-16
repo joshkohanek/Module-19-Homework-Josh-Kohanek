@@ -3,9 +3,9 @@ $(".themeChange").on("click", function () {
         $("#stylesheet").attr("href", "./css/style.css")
     }
     else if ($(this).hasClass("dark-mode")) {
-        $("#stylesheet").attr("href", "./css/darkmode.css")
+        $("#stylesheet").attr("href", "./css/darkmode.css") 
 
-    }
-})
+    } 
+}) 
 
 
