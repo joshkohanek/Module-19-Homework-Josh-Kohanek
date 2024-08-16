@@ -6,6 +6,6 @@ $(".themeChange").on("click", function () {
         $("#stylesheet").attr("href", "./css/darkmode.css") 
 
     } 
-}) 
+}); 
 
 
