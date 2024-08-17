@@ -1,193 +1,215 @@
 .hero {
-    background-color: #000102;
-    color: white ; 
-    padding: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
+  background-color: #000102;
+  color: white;
+  padding: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  body {
-    margin: 0;
-  }
-  header {
-    background-color: #36454f;
-    padding: 15px;
-  }
-  header ul {
-    float: right;
-    color: white;
-    margin-top: 5px;
-  }
-  header li {
-    display: inline-block;
-    padding: 0px 5px;
-  }
-  
-  
-  .content {
-    display: flex; 
-    justify-content: flex-start;
-    }
-  
-  .flex-container {
-    display: flex;
-    justify-content: space-around;
-  }
-  
-.myskills { 
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #36454f;
+  padding: 15px;
+}
+
+header ul {
+  float: right;
+  color: white;
+  margin-top: 5px;
+}
+
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.myskills {
   background-color: black;
 }
 
 
-  .Interface,  .webDev, .researcher {
-    width: 33%;
-   text-align: center;
+.Interface,
+.webDev,
+.researcher {
+  width: 33%;
+  text-align: center;
   padding: 30px;
   background-color: white;
-  }
-  
-  .workGrid{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-  }
-  
-  .weather {
-  display: block; 
-  justify-content: flex-start;
-  
-  }
-  
-  
-  
-  .NSPKU {
-    display: block; 
-    justify-content: flex-start;
-    }
-  
-    .workGrid2{
-    display: flex;
-    flex-direction: row-reverse;
-    }
-  
-  li a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    display: block;
-    padding: 10px;
-  }
-  
-  header p {
-    display: inline-block;
-  }
-  
-  .inline-block {
-    display: inline-block;
-  }
-  
-  .hero {
-    background-color: #000102;
-    color: white ; 
-    padding: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .content {
-    max-width: 300px;
-    margin: 0 auto;
-    padding: 50px;
-    text-align: center;
-  }
-  
-  h5 {
-    max-width: 300px;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 22px; 
-  
-  }
-  button {
-    padding: 15px;
-    background-color: #373738;
-    color: white;
-    font-size: 15px;
-    border-radius: 4px;
-    
-  }
-  
-  .seeker{
-    width: 300px;
-  }
-  
-  .text-content {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    color: white;
-  
-  }
-  
-  
-  
-  .download {
-  
-    display: flex;
-    margin: 0 auto; 
-  }
-  
-  h1{ 
-    color: white;
-    background-color: black;
+}
+
+.workGrid {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: white;
+  margin: 50px;
+}
+
+.proj1btn {
+  width: 150px
+}
+
+
+.weather {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+
+
+.NSPKU {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.proj2btn {
+  width: 150px
+}
+
+.workGrid2 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: white;
+  margin: 50px;
+
+}
+li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  display: block;
+  padding: 10px;
+}
+
+header p {
+  display: inline-block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.hero {
+  background-color: #000102;
+  color: white;
+  padding: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+}
+
+h5 {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+button {
+  padding: 15px;
+  background-color: #373738;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+
+}
+
+.seeker {
+  width: 300px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  color: white;
+
+}
+
+
+
+.download {
+
+  display: flex;
+  margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  background-color: black;
   margin: o;
   padding: 20px;
-    text-align: center;
-  
+  text-align: center;
+
+}
+
+.MyWork {
+  background-color: black;
+}
+
+li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+h4 {
+  font-size: 22px;
+  font-weight: bold;
+
+}
+
+footer {
+  background-color: #36454F;
+  padding: 5px;
+  color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+
+@media only screen and (max-width: 600px) {
+  body .hero {
+    font-size: 12px;
   }
 
-  .MyWork{
-    background-color: black;
+  .resercher {
+    font-size: 12px;
   }
 
-  li a {
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white; 
-    display: block; 
-    padding: 10px; 
+  .Interface {
+    font-size: 12px;
   }
-  
-  h4 {
-    font-size: 22px; 
-    font-weight: bold;
-    
-  }
-  
-  footer {
-    background-color: #36454F;
-    padding: 5px;
-    color: white;
-  }
-  footer ul {
-    list-style: none;
-    padding-left: 5px;
-  }
-  footer li {
-    display: inline-block;
-    padding: 0px 7px;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    body 
-  
-      .hero {
-  font-size: 12px;
-      }
-  
-      .resercher {
-        font-size: 12px;
-            }
-  
-            .Interface {
-              font-size: 12px;
-                  }}
+}
