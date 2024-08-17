@@ -10,7 +10,7 @@
     margin: 0;
   }
   header {
-    background-color: #E1E4E4;
+    background-color: #36454f;
     padding: 15px;
   }
   header ul {
@@ -34,21 +34,16 @@
     justify-content: space-around;
   }
   
-  .researcher {
+.myskills { 
+  background-color: black;
+}
+
+
+  .Interface,  .webDev, .researcher {
     width: 33%;
-  
-  }
-  
-  .Interface {
-    width: 33%;
-    padding-left: 100px;
-    padding-right: 100px;
-  
-  }
-  
-  .webDev {
-    width: 33%;
-  
+   text-align: center;
+  padding: 30px;
+  background-color: white;
   }
   
   .workGrid{
@@ -142,8 +137,24 @@
   }
   
   h1{ 
-  text-align: center;
+    color: white;
+    background-color: black;
+  margin: o;
+  padding: 20px;
+    text-align: center;
   
+  }
+
+  .MyWork{
+    background-color: black;
+  }
+
+  li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    display: block; 
+    padding: 10px; 
   }
   
   h4 {
@@ -153,7 +164,7 @@
   }
   
   footer {
-    background-color: #E1E4E4;
+    background-color: #36454F;
     padding: 5px;
     color: white;
   }

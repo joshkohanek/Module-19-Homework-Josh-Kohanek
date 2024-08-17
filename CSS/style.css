@@ -26,45 +26,55 @@ body {
     justify-content: space-around;
   }
   
-  .researcher {
-    width: 33%;
   
+  
+  
+  .Interface,  .webDev, .researcher {
+    width: 33%;
+   text-align: center;
+  padding: 30px;
+  background-color: white;
   }
   
-  .Interface {
-    width: 33%;
-    padding-left: 100px;
-    padding-right: 100px;
   
-  }
   
-  .webDev {
-    width: 33%;
-  
-  }
-  
-  .workGrid{
+  .workGrid {
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px; 
+    background-color: white;
+    margin: 50px;  
+  }
+
+  .proj1btn { 
+    width: 150px
   }
   
   .weather {
-  display: block; 
-  justify-content: flex-start;
-  
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: flex-end;
   }
   
   
   
   .NSPKU {
-    display: block; 
-    justify-content: flex-start;
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     }
   
-    .workGrid2{
+    .proj2btn {
+      width: 150px
+    }
+
+    .workGrid2 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    padding: 30px; 
+    background-color: white; 
+    margin: 50px; 
+  
     }
   
   li a {
